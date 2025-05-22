@@ -26,6 +26,7 @@ model = GaussianCopulaSynthesizer(metadata)
 model.fit(real_data)
 
 # Generate synthetic data
+
 synthetic_data = model.sample(50)
 
 # Add IFRS13 level
