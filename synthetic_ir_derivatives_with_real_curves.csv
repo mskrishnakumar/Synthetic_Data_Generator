@@ -1,0 +1,101 @@
+trade_id,instrument_type,market_price_available,pricing_input_type,valuation_method,trade_volume,trade_currency,instrument_rating,price_volatility_30d,days_since_last_trade,avg_curve_observability,correlation_risk,curve_used_for_pricing,curve_observability,trade_date,maturity_date,tenor_days,reference_rate_curve,reference_rate_value,ir_derivative_type,has_embedded_option,notional_amount,strike_rate,option_premium,curve_term,curve_rate,ifrs13_level
+HACK0000001,Traded Equity,True,Unobservable,Model-based,24489,EUR,B,0.88,353,0.68,True,Equity Index Curve,High,2024-04-02,2032-07-18,3029,EURIBOR,5.57,,False,,,,6M,2.48,Level 3
+HACK0000002,Bond,True,Observable,Mark-to-Market,7024,INR,B,0.76,308,0.26,True,Spot Curve,Low,2024-12-25,2033-06-07,3086,EURIBOR,6.1,IRS,True,,,,6M,0.6,Level 2
+HACK0000003,Traded Equity,True,Observable,Model-based,72686,USD,BB,0.29,130,0.64,True,Equity Index Curve,Medium,2024-10-23,2027-04-22,911,USD_LIBOR_6M,6.24,IRS,False,,,,10Y,2.42,Level 2
+HACK0000004,Traded Equity,True,Observable,Model-based,74729,USD,A,0.56,13,0.79,True,Corporate Curve,High,2023-08-13,2025-05-27,653,MIFOR,5.52,,False,,,,10Y,0.85,Level 2
+HACK0000005,Interest Rate Derivative,True,Unobservable,Mark-to-Market,23599,EUR,A,0.65,329,0.2,True,Forward Rate Curve,Medium,2025-03-20,2032-11-15,2797,EURIBOR,5.65,IRS,True,,,,6M,1.22,Level 3
+HACK0000006,Interest Rate Derivative,False,Unobservable,Model-based,98425,EUR,AA,0.1,169,0.13,True,Govt Curve,Low,2024-10-04,2026-11-18,775,T-Bill_91D,1.96,Cap,False,,,,2Y,2.42,Level 3
+HACK0000007,Traded Equity,False,Observable,Model-based,83260,INR,BB,0.87,24,0.87,True,Equity Index Curve,High,2024-05-20,2026-01-29,619,T-Bill_91D,1.48,Swaption,False,,,,5Y,3.14,Level 2
+HACK0000008,Traded Equity,True,Observable,Model-based,98031,EUR,BBB,0.73,23,0.66,True,Spot Curve,High,2023-12-27,2032-06-22,3100,MIFOR,1.3,,False,,,,6M,1.33,Level 2
+HACK0000009,Traded Equity,True,Observable,Mark-to-Market,1898,USD,AAA,0.97,112,0.79,True,Equity Index Curve,High,2024-11-10,2033-07-09,3163,SONIA,1.07,,False,,,,2Y,-0.03,Level 2
+HACK0000010,Bond,False,Observable,Model-based,75218,EUR,AA,0.83,262,0.31,False,Forward Rate Curve,Medium,2024-10-30,2032-10-02,2894,T-Bill_91D,0.91,Swaption,False,,3.52,,1M,2.26,Level 2
+HACK0000011,Bond,False,Unobservable,Mark-to-Market,93328,USD,BBB,0.76,128,0.6,False,Equity Index Curve,Medium,2024-06-12,2030-04-08,2126,USD_LIBOR_6M,4.35,Swaption,True,47511536.0,,,2Y,1.1,Level 3
+HACK0000012,Bond,False,Unobservable,Model-based,34258,EUR,BB,0.78,344,0.48,True,Swap Curve,Medium,2024-02-29,2027-03-29,1124,T-Bill_91D,7.35,Cap,False,,,,10Y,2.93,Level 3
+HACK0000013,Traded Equity,True,Observable,Mark-to-Market,11004,EUR,AAA,0.42,222,0.97,False,Spot Curve,High,2025-02-25,2027-07-28,883,MIFOR,6.86,,False,,,,1Y,0.67,Level 1
+HACK0000014,Traded Equity,True,Observable,Model-based,27019,INR,BB,0.53,13,0.99,True,Spot Curve,High,2024-04-16,2024-07-28,103,T-Bill_91D,3.49,,False,,,,5Y,4.9,Level 1
+HACK0000015,Interest Rate Derivative,True,Observable,Mark-to-Market,78015,EUR,BBB,0.9,163,0.9,True,Forward Rate Curve,High,2024-10-01,2024-08-17,-45,EURIBOR,3.43,CMS,False,,,,10Y,3.13,Level 1
+HACK0000016,Traded Equity,False,Observable,Model-based,46680,EUR,BB,0.83,311,0.12,False,Equity Index Curve,Low,2023-11-01,2033-04-12,3450,MIFOR,6.75,,False,,,,2Y,0.13,Level 2
+HACK0000017,Interest Rate Derivative,True,Unobservable,Mark-to-Market,47974,EUR,BB,0.48,322,0.23,False,Equity Index Curve,Medium,2025-03-16,2035-03-11,3647,T-Bill_91D,1.62,,False,,,215448.78,5Y,0.99,Level 3
+HACK0000018,Interest Rate Derivative,False,Observable,Mark-to-Market,2781,INR,AAA,0.98,54,0.43,True,Forward Rate Curve,Low,2023-06-01,2026-03-25,1028,SONIA,4.37,,True,62918946.0,,,6M,2.26,Level 2
+HACK0000019,Bond,False,Observable,Mark-to-Market,47100,USD,BBB,0.23,156,0.46,True,Forward Rate Curve,High,2025-05-21,2031-01-21,2071,EURIBOR,4.61,Swaption,False,,,,2Y,2.7,Level 2
+HACK0000020,Interest Rate Derivative,False,Unobservable,Mark-to-Market,78000,INR,BBB,0.28,339,0.69,False,Swap Curve,Medium,2025-02-28,2030-03-28,1854,MIFOR,4.82,IRS,False,,2.75,,10Y,-0.21,Level 3
+HACK0000021,Traded Equity,True,Unobservable,Model-based,67714,USD,AA,0.61,325,0.87,True,Equity Index Curve,High,2024-04-11,2026-06-17,797,EURIBOR,7.25,CMS,False,,,,2Y,2.8,Level 3
+HACK0000022,Bond,True,Observable,Mark-to-Market,21280,EUR,AAA,0.99,264,0.6,False,Equity Index Curve,Medium,2024-08-23,2028-02-03,1259,MIFOR,4.82,,True,51230905.0,,,6M,3.54,Level 2
+HACK0000023,Traded Equity,True,Observable,Mark-to-Market,14262,INR,BB,0.92,330,0.54,False,Govt Curve,High,2024-10-23,2029-04-18,1638,MIFOR,4.22,,False,,,,1M,4.03,Level 2
+HACK0000024,Bond,True,Observable,Mark-to-Market,9740,INR,A,0.79,342,0.97,False,Equity Index Curve,High,2024-01-10,2032-01-31,2943,EURIBOR,3.15,,False,69915006.0,,299356.66,6M,0.31,Level 1
+HACK0000025,Interest Rate Derivative,True,Unobservable,Model-based,62961,INR,AA,0.62,80,0.12,False,Swap Curve,Low,2024-06-08,2031-01-04,2401,T-Bill_91D,2.14,,False,,,,1Y,0.27,Level 3
+HACK0000026,Traded Equity,True,Observable,Model-based,80071,USD,B,0.87,325,0.78,True,Equity Index Curve,High,2025-03-13,2034-06-08,3374,SONIA,2.59,Basis Swap,False,,,,1M,-0.27,Level 2
+HACK0000027,Interest Rate Derivative,True,Observable,Mark-to-Market,84314,EUR,B,0.66,54,0.19,True,Govt Curve,Low,2023-12-12,2031-04-22,2688,ESTR,1.16,,False,46784168.0,,,5Y,0.92,Level 2
+HACK0000028,Traded Equity,True,Observable,Mark-to-Market,66218,INR,B,0.33,45,0.77,False,Equity Index Curve,Medium,2024-02-21,2025-06-20,485,T-Bill_91D,1.92,Basis Swap,False,63749967.0,,219325.88,5Y,4.7,Level 2
+HACK0000029,Interest Rate Derivative,True,Observable,Mark-to-Market,84407,USD,BBB,0.64,17,0.77,False,Forward Rate Curve,High,2024-04-05,2027-01-07,1007,EURIBOR,4.95,,False,71758862.0,,229535.53,5Y,3.1,Level 2
+HACK0000030,Interest Rate Derivative,True,Observable,Model-based,14771,USD,BB,0.58,54,0.97,True,Forward Rate Curve,High,2023-06-17,2032-02-06,3156,SOFR,4.2,Cap,True,,,,1Y,0.11,Level 1
+HACK0000031,Bond,True,Observable,Mark-to-Market,20651,USD,B,0.1,148,0.24,True,Govt Curve,Low,2023-11-24,2024-10-20,331,EURIBOR,1.17,,False,79699291.0,,,2Y,7.05,Level 2
+HACK0000032,Interest Rate Derivative,True,Unobservable,Mark-to-Market,36995,INR,BB,0.16,32,0.13,False,Forward Rate Curve,Low,2024-04-11,2026-08-09,850,EURIBOR,6.48,,False,,,,6M,2.08,Level 3
+HACK0000033,Bond,False,Observable,Mark-to-Market,99574,EUR,BBB,0.47,188,0.73,True,Govt Curve,High,2023-11-27,2031-01-13,2604,T-Bill_91D,1.48,CMS,False,,,,3M,4.11,Level 2
+HACK0000034,Traded Equity,True,Observable,Mark-to-Market,38621,INR,BBB,0.78,277,0.15,False,Spot Curve,Medium,2024-03-30,2029-05-31,1888,T-Bill_91D,2.1,Basis Swap,False,,,,6M,3.87,Level 2
+HACK0000035,Interest Rate Derivative,True,Observable,Model-based,91600,INR,A,0.3,215,0.45,False,Govt Curve,Medium,2024-02-06,2031-02-03,2554,T-Bill_91D,3.14,Cap,False,,,,1Y,2.16,Level 2
+HACK0000036,Traded Equity,False,Observable,Model-based,54087,EUR,BBB,0.88,239,0.29,True,Corporate Curve,Low,2024-02-09,2032-07-20,3084,SONIA,1.24,,False,,,,1Y,1.63,Level 2
+HACK0000037,Traded Equity,True,Observable,Mark-to-Market,37561,USD,AA,0.61,241,0.73,True,Govt Curve,Medium,2024-11-21,2029-05-25,1646,SONIA,7.18,,False,,,,6M,0.27,Level 2
+HACK0000038,Interest Rate Derivative,True,Unobservable,Mark-to-Market,91179,INR,A,0.55,60,0.28,False,Spot Curve,Medium,2025-02-03,2031-01-27,2184,MIFOR,4.15,,False,,,,1M,4.5,Level 3
+HACK0000039,Interest Rate Derivative,False,Unobservable,Model-based,26377,INR,AA,0.55,127,0.93,True,Forward Rate Curve,High,2025-02-13,2030-01-30,1812,USD_LIBOR_6M,5.12,,False,43315861.0,3.6,,6M,5.95,Level 3
+HACK0000040,Interest Rate Derivative,True,Observable,Mark-to-Market,21406,USD,AAA,0.87,70,0.8,False,Equity Index Curve,Medium,2024-08-28,2029-10-13,1872,SONIA,2.96,,False,36481146.0,,,5Y,1.56,Level 2
+HACK0000041,Bond,False,Observable,Mark-to-Market,36252,INR,B,0.35,29,0.4,True,Forward Rate Curve,Low,2024-03-15,2027-11-23,1348,MIFOR,2.88,,False,,,,1M,0.83,Level 2
+HACK0000042,Bond,True,Observable,Mark-to-Market,90718,INR,AAA,0.7,344,0.96,False,Corporate Curve,High,2024-08-09,2034-07-31,3643,EURIBOR,5.69,,False,57683862.0,,,10Y,0.24,Level 1
+HACK0000043,Interest Rate Derivative,True,Observable,Model-based,60193,USD,AA,0.48,312,0.12,True,Swap Curve,Low,2024-01-01,2024-05-20,140,T-Bill_91D,6.43,,False,39596520.0,,304320.61,1Y,0.83,Level 2
+HACK0000044,Interest Rate Derivative,False,Observable,Mark-to-Market,1628,EUR,BBB,0.28,39,0.94,True,Forward Rate Curve,High,2023-08-23,2032-07-25,3259,USD_LIBOR_6M,3.26,IRS,False,,,248119.01,5Y,6.45,Level 2
+HACK0000045,Bond,False,Observable,Model-based,66419,EUR,BBB,0.17,347,0.12,True,Spot Curve,Low,2024-01-03,2029-11-18,2146,T-Bill_91D,7.88,,False,,,,2Y,5.93,Level 2
+HACK0000046,Interest Rate Derivative,True,Observable,Mark-to-Market,19128,USD,BB,0.64,327,0.15,True,Forward Rate Curve,Medium,2025-01-11,2028-01-19,1103,ESTR,4.5,IRS,True,,,,6M,2.83,Level 2
+HACK0000047,Interest Rate Derivative,True,Unobservable,Mark-to-Market,28182,EUR,A,0.45,77,0.47,True,Forward Rate Curve,Medium,2024-12-31,2026-03-03,427,SONIA,0.28,CMS,False,63978665.0,,,6M,1.25,Level 3
+HACK0000048,Bond,True,Observable,Mark-to-Market,55660,EUR,AAA,0.16,309,0.83,False,Spot Curve,High,2024-07-18,2031-11-14,2675,EURIBOR,5.43,,True,,,,6M,3.35,Level 2
+HACK0000049,Bond,False,Observable,Mark-to-Market,6692,USD,A,0.1,185,0.31,False,Spot Curve,Low,2024-10-14,2029-11-17,1860,SONIA,7.65,,False,,,,5Y,2.63,Level 2
+HACK0000050,Interest Rate Derivative,False,Observable,Mark-to-Market,52922,INR,B,0.15,236,0.82,True,Equity Index Curve,Low,2023-10-07,2025-01-30,481,MIFOR,6.63,Swaption,False,,,,6M,1.02,Level 2
+HACK0000051,Interest Rate Derivative,True,Observable,Mark-to-Market,63003,EUR,BBB,0.86,70,0.98,False,Spot Curve,High,2024-06-20,2028-02-27,1347,T-Bill_91D,5.39,,False,60850879.0,,,1M,3.73,Level 1
+HACK0000052,Interest Rate Derivative,False,Observable,Mark-to-Market,4337,USD,BB,0.73,295,0.32,False,Swap Curve,Medium,2025-02-09,2031-12-06,2491,MIFOR,6.49,,True,35268070.0,,,1Y,1.06,Level 2
+HACK0000053,Bond,False,Unobservable,Mark-to-Market,73406,USD,B,0.37,143,0.46,True,Swap Curve,High,2024-04-29,2030-03-24,2155,EURIBOR,2.53,,False,,3.22,276197.55,1Y,0.19,Level 3
+HACK0000054,Interest Rate Derivative,True,Unobservable,Mark-to-Market,33996,INR,A,0.48,265,0.93,True,Govt Curve,High,2024-08-31,2031-07-21,2515,T-Bill_91D,4.57,,False,91030661.0,,,1Y,3.51,Level 3
+HACK0000055,Traded Equity,True,Observable,Mark-to-Market,27684,EUR,A,0.55,165,0.7,False,Govt Curve,Medium,2025-04-26,2029-04-03,1438,ESTR,3.59,,False,,,,10Y,3.71,Level 2
+HACK0000056,Interest Rate Derivative,False,Observable,Mark-to-Market,2862,EUR,BB,0.77,173,0.12,True,Forward Rate Curve,Medium,2024-02-03,2030-02-19,2208,SOFR,7.82,,True,26013818.0,,137237.18,3M,0.62,Level 2
+HACK0000057,Traded Equity,False,Observable,Mark-to-Market,92508,EUR,A,0.23,336,0.35,True,Corporate Curve,Low,2023-12-18,2029-01-11,1851,EURIBOR,6.53,Cap,False,,,,10Y,1.17,Level 2
+HACK0000058,Bond,True,Observable,Mark-to-Market,51856,EUR,BB,0.83,309,0.7,True,Spot Curve,High,2025-03-21,2031-11-04,2419,T-Bill_91D,6.24,Cap,True,,,,6M,0.01,Level 2
+HACK0000059,Traded Equity,True,Observable,Model-based,2085,USD,AAA,0.55,206,0.46,True,Govt Curve,High,2024-01-26,2030-01-16,2182,ESTR,6.37,,False,67397762.0,3.79,,1M,3.8,Level 2
+HACK0000060,Interest Rate Derivative,False,Observable,Mark-to-Market,1777,EUR,AA,0.21,47,0.9,False,Equity Index Curve,Medium,2024-09-05,2034-07-11,3596,USD_LIBOR_6M,3.0,,False,23524498.0,,,1Y,0.9,Level 2
+HACK0000061,Interest Rate Derivative,True,Observable,Mark-to-Market,97676,INR,AA,0.1,6,0.91,True,Forward Rate Curve,Medium,2024-09-09,2030-05-28,2087,T-Bill_91D,3.28,,False,48962526.0,,160752.46,1Y,1.47,Level 2
+HACK0000062,Interest Rate Derivative,False,Unobservable,Model-based,87750,EUR,A,0.43,50,0.23,False,Forward Rate Curve,Medium,2024-06-18,2030-04-29,2141,USD_LIBOR_6M,3.14,,False,,,,5Y,6.88,Level 3
+HACK0000063,Traded Equity,False,Unobservable,Mark-to-Market,7054,USD,AA,0.92,114,0.55,True,Corporate Curve,High,2024-05-12,2032-09-20,3053,SONIA,6.38,,False,47755640.0,,221371.97,6M,-0.01,Level 3
+HACK0000064,Traded Equity,False,Unobservable,Model-based,9161,INR,A,0.11,209,0.55,True,Corporate Curve,Low,2025-01-15,2026-12-23,707,ESTR,1.72,Swaption,False,,,,2Y,6.27,Level 3
+HACK0000065,Interest Rate Derivative,True,Observable,Model-based,81822,USD,BBB,0.4,284,0.3,False,Govt Curve,Low,2024-01-16,2024-08-25,222,EURIBOR,6.41,CMS,False,13517626.0,,,6M,4.39,Level 2
+HACK0000066,Interest Rate Derivative,True,Observable,Mark-to-Market,20066,USD,B,0.52,306,0.34,True,Govt Curve,Low,2024-07-09,2029-08-10,1858,SONIA,3.73,Floor,False,58772883.0,,,1M,-0.18,Level 2
+HACK0000067,Bond,True,Observable,Mark-to-Market,95467,INR,A,0.89,353,0.32,True,Swap Curve,Medium,2023-10-27,2025-12-05,770,USD_LIBOR_6M,7.02,,False,,,,2Y,3.36,Level 2
+HACK0000068,Bond,False,Unobservable,Mark-to-Market,15610,USD,B,0.33,117,0.91,False,Equity Index Curve,High,2023-10-24,2027-08-01,1377,USD_LIBOR_6M,7.85,Swaption,False,,3.42,,1M,-0.1,Level 3
+HACK0000069,Bond,False,Unobservable,Mark-to-Market,26083,EUR,B,0.71,101,0.15,True,Corporate Curve,Low,2024-05-06,2026-04-17,711,T-Bill_91D,1.0,,False,,,,2Y,2.63,Level 3
+HACK0000070,Traded Equity,True,Unobservable,Mark-to-Market,76986,EUR,BBB,0.84,133,0.62,False,Swap Curve,High,2023-07-02,2028-10-03,1920,EURIBOR,2.53,,False,39119561.0,,,2Y,7.32,Level 3
+HACK0000071,Traded Equity,True,Observable,Mark-to-Market,78002,EUR,AA,0.26,120,0.78,False,Swap Curve,Medium,2023-07-09,2025-10-31,845,ESTR,0.5,,False,,,,2Y,6.15,Level 2
+HACK0000072,Interest Rate Derivative,False,Observable,Mark-to-Market,22179,INR,BB,0.85,206,0.63,False,Swap Curve,Low,2024-04-11,2033-09-29,3458,ESTR,5.72,IRS,True,,,,2Y,1.65,Level 2
+HACK0000073,Traded Equity,False,Observable,Model-based,15876,USD,A,0.61,196,0.46,True,Corporate Curve,Medium,2023-08-27,2024-11-30,461,MIFOR,1.77,,False,,,,2Y,1.69,Level 2
+HACK0000074,Bond,True,Observable,Mark-to-Market,21542,INR,AA,0.15,339,0.37,True,Swap Curve,Medium,2023-12-06,2031-09-20,2845,ESTR,7.24,,True,13173582.0,,,2Y,4.44,Level 2
+HACK0000075,Traded Equity,False,Observable,Mark-to-Market,30126,USD,AA,0.53,27,0.21,False,Corporate Curve,Low,2023-07-19,2029-03-23,2074,USD_LIBOR_6M,6.01,,False,,,,5Y,2.72,Level 2
+HACK0000076,Bond,False,Observable,Model-based,45719,INR,BB,0.97,193,0.47,False,Corporate Curve,Medium,2025-03-28,2032-10-10,2753,T-Bill_91D,1.9,,False,,,,1M,4.62,Level 2
+HACK0000077,Interest Rate Derivative,False,Unobservable,Mark-to-Market,29518,EUR,A,0.56,28,0.16,False,Swap Curve,Medium,2024-12-01,2026-03-07,461,EURIBOR,5.46,,False,,,,6M,0.83,Level 3
+HACK0000078,Traded Equity,True,Unobservable,Mark-to-Market,88622,USD,AA,0.11,38,0.72,True,Corporate Curve,Medium,2024-01-11,2027-09-09,1337,MIFOR,0.27,,False,,,245070.2,1M,0.16,Level 3
+HACK0000079,Interest Rate Derivative,True,Observable,Mark-to-Market,42744,EUR,BBB,0.51,34,0.87,False,Forward Rate Curve,High,2024-01-28,2033-02-16,3307,USD_LIBOR_6M,5.84,Cap,True,34153919.0,,,1Y,0.11,Level 1
+HACK0000080,Interest Rate Derivative,False,Unobservable,Mark-to-Market,47129,INR,B,0.75,358,0.25,True,Forward Rate Curve,Low,2024-06-27,2026-03-17,628,USD_LIBOR_6M,1.88,Basis Swap,False,61576137.0,,,6M,3.1,Level 3
+HACK0000081,Interest Rate Derivative,False,Unobservable,Model-based,66502,INR,B,0.74,266,0.34,False,Govt Curve,Low,2024-01-02,2029-02-11,1867,MIFOR,0.21,,False,,3.59,,1M,0.33,Level 3
+HACK0000082,Traded Equity,False,Unobservable,Mark-to-Market,3124,INR,AA,0.21,64,0.5,True,Spot Curve,Medium,2023-08-06,2024-09-05,396,USD_LIBOR_6M,7.0,,False,61665405.0,4.64,,2Y,6.72,Level 3
+HACK0000083,Bond,True,Observable,Mark-to-Market,2922,INR,B,0.45,220,0.7,False,Swap Curve,Medium,2024-12-26,2029-07-20,1667,EURIBOR,7.87,,False,,,,10Y,-0.22,Level 2
+HACK0000084,Interest Rate Derivative,True,Unobservable,Model-based,11241,USD,BB,0.46,77,0.15,False,Forward Rate Curve,Low,2024-05-12,2029-05-31,1845,ESTR,5.84,CMS,False,61056705.0,,,5Y,6.23,Level 3
+HACK0000085,Interest Rate Derivative,False,Observable,Model-based,78116,INR,B,0.36,322,0.15,False,Corporate Curve,Low,2023-08-31,2033-02-22,3463,T-Bill_91D,7.6,,True,,,,10Y,4.66,Level 2
+HACK0000086,Bond,True,Unobservable,Mark-to-Market,11302,USD,B,0.67,110,0.83,False,Swap Curve,High,2023-10-24,2028-09-21,1794,SONIA,1.71,,False,,,272474.31,2Y,-0.28,Level 3
+HACK0000087,Traded Equity,True,Unobservable,Mark-to-Market,5595,EUR,BBB,0.78,62,0.9,False,Swap Curve,Medium,2024-10-16,2029-02-24,1592,SONIA,5.91,,False,44012191.0,,247508.63,1Y,0.17,Level 3
+HACK0000088,Traded Equity,False,Unobservable,Mark-to-Market,1872,USD,BBB,0.31,128,0.34,False,Swap Curve,Low,2024-01-27,2024-11-20,298,ESTR,3.69,,False,,2.92,,2Y,5.01,Level 3
+HACK0000089,Bond,False,Observable,Mark-to-Market,75310,INR,BBB,0.91,362,0.23,False,Govt Curve,High,2023-12-31,2032-01-18,2940,EURIBOR,0.17,Floor,False,,,,3M,0.02,Level 2
+HACK0000090,Bond,False,Observable,Model-based,21906,USD,AA,0.48,86,0.88,False,Forward Rate Curve,High,2023-08-28,2027-07-17,1419,EURIBOR,5.27,,False,94743506.0,,349561.7,3M,0.13,Level 2
+HACK0000091,Interest Rate Derivative,True,Unobservable,Mark-to-Market,63571,INR,B,0.36,162,0.96,True,Corporate Curve,High,2023-07-25,2025-03-31,615,MIFOR,6.24,IRS,False,53458356.0,,,5Y,1.15,Level 3
+HACK0000092,Traded Equity,True,Unobservable,Mark-to-Market,28037,EUR,AA,0.15,315,0.62,True,Forward Rate Curve,Low,2024-08-19,2030-05-11,2091,T-Bill_91D,7.97,,False,64087016.0,,,2Y,6.42,Level 3
+HACK0000093,Interest Rate Derivative,False,Unobservable,Model-based,93250,USD,BB,0.61,328,0.89,True,Forward Rate Curve,High,2024-05-09,2029-12-27,2058,EURIBOR,0.84,Cap,True,,,285584.9,1Y,0.3,Level 3
+HACK0000094,Traded Equity,True,Observable,Model-based,71135,INR,B,0.96,353,0.26,True,Forward Rate Curve,Medium,2024-06-14,2026-09-24,832,USD_LIBOR_6M,3.32,CMS,False,,2.97,,10Y,6.5,Level 2
+HACK0000095,Traded Equity,False,Observable,Model-based,57915,USD,A,0.94,15,0.5,False,Equity Index Curve,Medium,2023-11-14,2025-11-17,734,EURIBOR,4.67,,False,63480720.0,2.81,200743.47,1Y,0.06,Level 2
+HACK0000096,Bond,True,Observable,Model-based,17799,EUR,BB,0.57,34,0.63,True,Swap Curve,High,2024-08-08,2029-03-03,1668,ESTR,5.48,,False,47142411.0,3.3,,1Y,-0.24,Level 2
+HACK0000097,Interest Rate Derivative,False,Unobservable,Model-based,25566,EUR,BB,0.44,359,0.56,False,Forward Rate Curve,Medium,2025-03-31,2032-03-30,2556,T-Bill_91D,3.57,,False,,,266679.05,3M,-0.03,Level 3
+HACK0000098,Traded Equity,True,Observable,Mark-to-Market,37850,EUR,BB,0.97,22,0.9,True,Equity Index Curve,High,2023-12-05,2028-04-04,1582,SONIA,0.62,Swaption,False,,3.62,,6M,1.12,Level 1
+HACK0000099,Bond,True,Observable,Mark-to-Market,28638,USD,AAA,0.37,152,0.79,True,Swap Curve,High,2024-07-11,2033-12-06,3435,T-Bill_91D,6.3,,False,,,,10Y,0.07,Level 2
+HACK0000100,Traded Equity,True,Observable,Model-based,60775,USD,AAA,0.59,221,0.63,True,Govt Curve,Medium,2024-09-12,2034-08-30,3639,EURIBOR,0.63,,False,,,,5Y,2.0,Level 2
